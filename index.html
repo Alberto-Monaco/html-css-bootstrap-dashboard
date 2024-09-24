@@ -14,10 +14,34 @@
 		<!-- css link  -->
 		<link rel="stylesheet" href="./assets/css/style.css" />
 	</head>
-	<body class="debug">
+	<body class="deug">
 		<header>
-            nav
-        </header>
+			<nav class="navbar navbar-expand-sm navbar-light bg-dark">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#">
+						<img width="50px" src="./assets/img/duck.png" alt="" />
+					</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-toggle="collapse"
+						data-target="#navbarID"
+						aria-controls="navbarID"
+						aria-expanded="false"
+						aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarID">
+						<div class="navbar-nav">
+							<a class="nav-link active text-white" aria-current="page" href="#">Catalogo Libri</a>
+							<a class="nav-link active text-secondary" aria-current="page" href="#">Anagrafica Utenti</a>
+							<a class="nav-link active text-secondary" aria-current="page" href="#">Storico Prestiti</a>
+							<a class="nav-link active text-secondary" aria-current="page" href="#">Help</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
 		<main></main>
 		<!-- Bootstrap JavaScript Libraries -->
 		<script
