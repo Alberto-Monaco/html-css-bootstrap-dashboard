@@ -1,0 +1,17 @@
+.debug *{
+
+    border: 1px dashed black;
+}
+
+.debug header{
+    min-height: 80px;
+    background-color: blue;
+}
+
+.debug main{
+    background-color: green;
+    min-height: 400px;
+}
+
+
+
